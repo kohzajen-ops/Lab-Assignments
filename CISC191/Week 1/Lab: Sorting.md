@@ -1,9 +1,9 @@
 # Lab: Sorting
 
-## Objectives
+## Objectives:
 Sort an array 
 
-## Assignment Code
+## Assignment Code:
 ```Java
 import java.util.Scanner;
 
@@ -40,3 +40,14 @@ public class SortArrayLab {
     }
 }
 ```
+
+## This is my flowchart:
+<img width="201" height="691" alt="Flowchart-Sorting drawio" src="https://github.com/user-attachments/assets/460a4270-0823-4e6d-9298-f30a4b14a893" />
+
+## Why did I choose Bubble Sort?
+As the assignment suggested, some believe the simplest to code is bubble sort which I believe is a good way to start. I also believe that bubble is easy to understand and implement and with a small dataset of 20 elements, it is a great choice. Moreoever, bubble sort is great for explaining in a flowchart.
+
+## Challenges encountered while performing the lab:
+For me, one of the biggest challenges was remembering all the little details such as like putting semicolons between code line, or making sure every opening parenthesis had a matching closing one. It was easy to forget a semicolon or misplace a bracket, which could break the whole program.
+
+
