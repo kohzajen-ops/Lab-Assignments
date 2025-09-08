@@ -242,4 +242,8 @@ Enter annual salary (-1 to exit):
 Process finished with exit code 0
 
 ## This is my flowchart:
+<img width="121" height="861" alt="Lab_ Salary calc (Task B) drawio" src="https://github.com/user-attachments/assets/b343697f-7f62-4649-b932-12347b5e68b7" />
 
+
+## Challenges encountered while performing the lab:
+This week lab is pretty tough for me, I had a difficult time understanding how to structure the class, in this case ensuring that the method correctly matched a salary to the proper tax rate, and I forgot loads of } in this lab as well.
