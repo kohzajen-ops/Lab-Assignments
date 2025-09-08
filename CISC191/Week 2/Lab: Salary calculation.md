@@ -47,3 +47,44 @@ public class TaxTableTools {
 
 2. Assignment Code:
 ```Java
+import java.util.Scanner;
+
+public class IncomeTaxMain {    
+
+   public static int getInteger(Scanner input, String prompt) {
+      int inputValue;
+      
+      System.out.println(prompt + ": ");
+      inputValue = input.nextInt();
+      
+      return inputValue;
+   } 
+
+   public static void main(String [] args) { 
+      final String PROMPT_SALARY = "\nEnter annual salary (-1 to exit)";
+      Scanner scnr = new Scanner(System.in);
+      int annualSalary;
+      double taxRate;
+      int taxToPay;
+
+      int []    salary   = {   0,  20000, 50000, 100000, Integer.MAX_VALUE };
+      double [] taxTable = { 0.0,   0.10,  0.20,   0.30,              0.40 };
+
+      TaxTableTools table = new TaxTableTools();
+
+      table.setTables(salary, taxTable);
+
+      annualSalary = getInteger(scnr, PROMPT_SALARY);
+
+      while (annualSalary >= 0) {
+         taxRate = table.getValue(annualSalary);
+         taxToPay= (int)(annualSalary * taxRate);   
+         System.out.println("Annual Salary: " + annualSalary + 
+                            "\tTax rate: " + taxRate +
+                            "\tTax to pay: " + taxToPay);
+
+         annualSalary = getInteger(scnr, PROMPT_SALARY);
+      } 
+   } 
+}
+
