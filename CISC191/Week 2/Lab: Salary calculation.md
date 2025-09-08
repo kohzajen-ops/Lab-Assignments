@@ -120,6 +120,10 @@ Enter annual salary (-1 to exit):
 
 Process finished with exit code 0
 
+## This is my flowchart:
+<img width="121" height="861" alt="Lab_ Salary calc (Task A) drawio" src="https://github.com/user-attachments/assets/aa763e5c-30c7-4729-80c9-25275afe74ea" />
+
+
 ## Task B (using constructor overload)
 1. Assignment Code:
 ```Java
@@ -236,3 +240,6 @@ Enter annual salary (-1 to exit):
 -1
 
 Process finished with exit code 0
+
+## This is my flowchart:
+
