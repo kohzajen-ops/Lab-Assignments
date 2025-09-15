@@ -47,6 +47,7 @@ public class Car {
   If the reference variable myCar were to go out of scope (e.g., if the main() method finishes execution), then the object that myCar pointed to could be collected by the garbage collector. Since we are not explicitly nullifying myCar, the memory will be eligible for garbage collection after main() finishes running.
 
 ## This is my flowchart:
+<img width="121" height="461" alt="Lab_ Memory management drawio" src="https://github.com/user-attachments/assets/e999dde6-30af-4f81-bf1d-9926de1e5b5a" />
 
 
 ## Challenges encountered while performing the lab:
