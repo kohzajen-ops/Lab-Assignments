@@ -69,8 +69,7 @@ public class GUILab2 extends JFrame implements ActionListener {
 ```
 
 ## This is my flowchart:
-<img width="201" height="761" alt="GUILab2 drawio" src="https://github.com/user-attachments/assets/d3c9703c-28e7-492b-bfad-cc452c8c4018" />
-
+<img width="201" height="761" alt="GUILab2 drawio" src="https://github.com/user-attachments/assets/a9066bbf-e339-453e-91f1-30c44babfea7" />
 
 ## Challenges encountered while performing the lab:
 Learning from my mistakes from the first lab, I didn't forget setVisible(true). However, deciding between "kilometres” and “kilometers" got me thinking a bit.
