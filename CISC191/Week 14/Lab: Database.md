@@ -69,7 +69,7 @@ public class DatabaseLab {
 
 ```
 ## This is my flowchart:
-<img width="121" height="661" alt="InsertionSortLab drawio" src="https://github.com/user-attachments/assets/4869ac66-f024-41d0-b958-189f13553a35" />
+<img width="121" height="761" alt="DatabaseLab drawio" src="https://github.com/user-attachments/assets/d6ca4f7f-5167-4654-807d-f3fe58d1c9fe" />
 
 ## Challenges encountered while performing the lab:
 The most difficult part of this assignment for me was installing MySQL and getting MySQL to connect to IntelliJ.
